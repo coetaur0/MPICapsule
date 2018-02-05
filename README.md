@@ -13,7 +13,7 @@ MPI Capsule was developed in the context of my bachelor's thesis at the Universi
 MPI Capsule was implemented in the form of a header-only library. To use it in one of your projects, all you need to do is copy the contents of the */src/include* folder of this repository into your program's source and add an `#include <mpi_capsule.hpp>` statement in your code.
 
 ## Examples
-Example programs using MPI Capsule are provided in the */src/examples* folder of this repository. The */data* folder contains a realtively large (1.15 GB) text file that can be used in the wordcount example.
+Example programs using MPI Capsule are provided in the */src/examples* folder of this repository. The */data* folder contains a small text file (23 MB) that can be used in the wordcount example.
 
 ## External libraries
 This project uses [Cereal](https://uscilab.github.io/cereal/), an open source data serialization library under the BSD license.
